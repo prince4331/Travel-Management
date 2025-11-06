@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   // Mobile build configuration (comment out for web dev)
-  // output: 'export',
-  // images: { unoptimized: true },
+  output: 'export',
+  images: { unoptimized: true },
   webpack: (config, { isServer }) => {
     // Handle service worker
     if (!isServer) {

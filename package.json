@@ -34,7 +34,8 @@
     "dev": "concurrently -n api,web -c green,blue \"npm:dev:api\" \"npm:dev:web\"",
     "dev:api": "ts-node-dev --respawn --transpile-only backend/src/main.ts",
     "dev:web": "npm --prefix frontend run dev -- -p 3001",
-    "start": "ts-node backend/src/main.ts",
+    "start": "node dist/backend/src/main.js",
+    "build": "tsc -p backend/tsconfig.json",
     "seed:demo": "ts-node backend/src/seeds/bootstrap-demo.ts",
     "seed:test-user": "ts-node backend/src/seeds/create-test-user.ts"
   }
