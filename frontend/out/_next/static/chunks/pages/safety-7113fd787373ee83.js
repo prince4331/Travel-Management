@@ -1,0 +1,16 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[828],{9399:function(e,t,a){(window.__NEXT_P=window.__NEXT_P||[]).push(["/safety",function(){return a(2524)}])},5930:function(e,t,a){"use strict";a.d(t,{Z:function(){return s}});/**
+ * @license lucide-react v0.435.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let s=(0,a(1462).Z)("ShieldCheck",[["path",{d:"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",key:"oel41y"}],["path",{d:"m9 12 2 2 4-4",key:"dzmm74"}]])},358:function(e,t,a){"use strict";a.d(t,{Z:function(){return s}});/**
+ * @license lucide-react v0.435.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let s=(0,a(1462).Z)("Smartphone",[["rect",{width:"14",height:"20",x:"5",y:"2",rx:"2",ry:"2",key:"1yt0o3"}],["path",{d:"M12 18h.01",key:"mhygvu"}]])},2524:function(e,t,a){"use strict";a.r(t),a.d(t,{default:function(){return h}});var s=a(5893),n=a(5930);/**
+ * @license lucide-react v0.435.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,a(1462).Z)("Siren",[["path",{d:"M7 18v-6a5 5 0 1 1 10 0v6",key:"pcx96s"}],["path",{d:"M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z",key:"1b4s83"}],["path",{d:"M21 12h1",key:"jtio3y"}],["path",{d:"M18.5 4.5 18 5",key:"g5sp9y"}],["path",{d:"M2 12h1",key:"1uaihz"}],["path",{d:"M12 2v1",key:"11qlp1"}],["path",{d:"m4.929 4.929.707.707",key:"1i51kw"}],["path",{d:"M12 12v6",key:"3ahymv"}]]);var c=a(358),l=a(2336),r=a(1064);function h(){return(0,s.jsx)(l.L,{title:"Safety hub",description:"Centralize emergency protocols, SOS automation, and mesh fallback messaging.",actions:null,children:(0,s.jsxs)("div",{className:"grid gap-6 lg:grid-cols-3",children:[(0,s.jsxs)(r.Zb,{children:[(0,s.jsx)(r.Ol,{children:(0,s.jsx)(r.ll,{children:"Emergency matrix"})}),(0,s.jsxs)(r.aY,{className:"space-y-3 text-sm text-slate-600",children:[(0,s.jsx)(n.Z,{className:"h-5 w-5 text-primary-600"}),(0,s.jsx)("p",{children:"Assign escalation tiers per trip with embassy, hospital, and local liaison contacts."})]})]}),(0,s.jsxs)(r.Zb,{children:[(0,s.jsx)(r.Ol,{children:(0,s.jsx)(r.ll,{children:"SOS automation"})}),(0,s.jsxs)(r.aY,{className:"space-y-3 text-sm text-slate-600",children:[(0,s.jsx)(i,{className:"h-5 w-5 text-primary-600"}),(0,s.jsx)("p",{children:"SMS fallback broadcasts location and medical details when mesh connectivity fails."})]})]}),(0,s.jsxs)(r.Zb,{children:[(0,s.jsx)(r.Ol,{children:(0,s.jsx)(r.ll,{children:"Biometric access"})}),(0,s.jsxs)(r.aY,{className:"space-y-3 text-sm text-slate-600",children:[(0,s.jsx)(c.Z,{className:"h-5 w-5 text-primary-600"}),(0,s.jsx)("p",{children:"Enable fingerprint or FaceID login on mobile for rapid emergency access."})]})]})]})})}}},function(e){e.O(0,[664,40,542,888,774,179],function(){return e(e.s=9399)}),_N_E=e.O()}]);

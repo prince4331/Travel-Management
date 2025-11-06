@@ -1,0 +1,39 @@
+version: '3.8'
+services:
+  backend:
+    build: ../backend
+    ports:
+      - "3000:3000"
+    env_file:
+      - ../backend/.env.example
+    depends_on:
+      - redis
+      - s3
+  frontend:
+    build: ../frontend
+    ports:
+      - "4000:3000"
+    env_file:
+      - ../frontend/.env.example
+    depends_on:
+      - backend
+  mobile:
+    build: ../mobile
+    ports:
+      - "8081:8081"
+    env_file:
+      - ../mobile/.env.example
+    depends_on:
+      - backend
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+  s3:
+    image: minio/minio
+    environment:
+      MINIO_ACCESS_KEY: your-access-key
+      MINIO_SECRET_KEY: your-secret-key
+    command: server /data
+    ports:
+      - "9000:9000"

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mobile
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mobile
+  template:
+    metadata:
+      labels:
+        app: mobile
+    spec:
+      containers:
+        - name: mobile
+          image: mobile:latest
+          ports:
+            - containerPort: 8081
+          envFrom:
+            - configMapRef:
+                name: mobile-config
