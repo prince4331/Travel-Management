@@ -1,1 +1,21 @@
-{}
+{
+  "pages\\guides.tsx -> ../sections/WorldMap": {
+    "id": 3438,
+    "files": [
+      "static/chunks/438.dd0690e6b58a9e5a.js"
+    ]
+  },
+  "pages\\maps.tsx -> ../components/ui/InteractiveMap": {
+    "id": 3869,
+    "files": [
+      "static/chunks/0b7b90cd.abad55a865e4a8c0.js",
+      "static/chunks/869.290fc8756c71181d.js"
+    ]
+  },
+  "pages\\maps.tsx -> ../components/ui/MapDownloader": {
+    "id": 4061,
+    "files": [
+      "static/chunks/61.82147c877019becb.js"
+    ]
+  }
+}
